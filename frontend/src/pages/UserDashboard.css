@@ -1,0 +1,69 @@
+.dashboard-card {
+  background: var(--kod-white);
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px var(--kod-shadow);
+  width: 100%;
+  max-width: 480px;
+}
+
+.dashboard-card h2 {
+  color: var(--kod-text);
+  margin-bottom: 0.25rem;
+}
+
+.dashboard-subtitle {
+  color: var(--kod-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.kod-btn-balance {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.kod-btn-outline {
+  background: transparent;
+  border: 2px solid var(--kod-yellow);
+  color: var(--kod-text);
+  margin-top: 1rem;
+}
+
+.kod-btn-outline:hover {
+  background: var(--kod-yellow-light);
+}
+
+.dashboard-error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.balance-result {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--kod-yellow-light) 0%, var(--kod-white) 100%);
+  border: 2px solid var(--kod-yellow);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.balance-message {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--kod-text);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.balance-celebration {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(255, 215, 0, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 215, 0, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}

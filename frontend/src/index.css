@@ -1,0 +1,22 @@
+:root {
+  --kod-yellow: #FFD700;
+  --kod-yellow-dark: #F4C430;
+  --kod-yellow-light: #FFF8DC;
+  --kod-white: #FFFFFF;
+  --kod-text: #1a1a1a;
+  --kod-text-muted: #555;
+  --kod-shadow: rgba(255, 215, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--kod-white);
+  color: var(--kod-text);
+  min-height: 100vh;
+}

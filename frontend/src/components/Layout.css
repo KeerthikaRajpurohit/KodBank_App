@@ -1,0 +1,28 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, var(--kod-white) 0%, var(--kod-yellow-light) 100%);
+}
+
+.kod-header {
+  background: linear-gradient(90deg, var(--kod-yellow) 0%, var(--kod-yellow-dark) 100%);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px var(--kod-shadow);
+}
+
+.kod-logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--kod-text);
+  letter-spacing: 0.05em;
+}
+
+.kod-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
