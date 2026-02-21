@@ -6,8 +6,8 @@
     "start": "vercel dev"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cookie": "^0.6.1",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.5.0",
     "dotenv": "^16.3.1",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.6.5"
